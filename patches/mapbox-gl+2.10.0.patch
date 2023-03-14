@@ -1,0 +1,13 @@
+diff --git a/node_modules/mapbox-gl/dist/mapbox-gl-dev.js b/node_modules/mapbox-gl/dist/mapbox-gl-dev.js
+index e52a6e5..b6d53ca 100644
+--- a/node_modules/mapbox-gl/dist/mapbox-gl-dev.js
++++ b/node_modules/mapbox-gl/dist/mapbox-gl-dev.js
+@@ -78194,7 +78194,7 @@ class Map extends Camera {
+         if (this._loaded && !this._fullyLoaded && !somethingDirty) {
+             this._fullyLoaded = true;
+             // Following line is billing related code. Do not change. See LICENSE.txt
+-            this._authenticate();
++            // this._authenticate();
+             ref_properties.PerformanceUtils.mark(ref_properties.PerformanceMarkers.fullLoad);
+         }
+     }
